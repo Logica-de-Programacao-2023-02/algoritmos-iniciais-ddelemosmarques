@@ -1,0 +1,50 @@
+1)  Algoritmo de soma de dois números: um algoritmo simples que pede dois números como entrada e retorna a soma desses dois números.
+
+Leia A
+Leia B
+Resultado = A + B
+Escreva Resultado
+FIM
+
+2)  Algoritmo de conversão de temperatura: um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa.
+
+Leia temperatura
+Leia unidade
+
+se : xC
+Resultado = ( xC * 9/5) + 32 = yF 
+Escreva Resultado = yF
+
+senão 
+resultado =  ( yF − 32) * 5/9 = xC
+escreva Resultado = xC
+FIM
+
+3)  Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números.
+
+Solicitar a lista de números
+inicializar a variável soma com 0
+para cada número da lista faça:
+  adicione o número a variável soma
+    calcule a média dividindo a variável soma pelo tamanho da lista
+exiba o resultado da média
+FIM
+
+-------------------------------------
+resolução do professor
+3)  Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números
+
+1:  leia lista
+2:  leia quantidade
+3:  var soma = 0
+4:  para cada elemento da lista faça:
+5:    soma = soma + elemento
+6:  média = soma / quantidade
+7:  escreva média 
+
+
+
+
+4)  Algoritmo de cálculo de fatorial: um algoritmo que calcula o fatorial de um número, ou seja, o produto de todos os números inteiros de 1 até aquele número.
+leia número
+determine
